@@ -47,9 +47,8 @@ def main():
     filePath = os.sys.argv[1]
     head, tail = os.path.split(filePath)
     limit = os.sys.argv[2]
-    # peaks(tail, limit)
     if  tail[-3:].lower().endswith(('txt', 'asc')) is True:
-        peaks(tail, limit)
+        peaks(filePath, limit)
     else:
         print('File is not a txt or asc file type.')
 
