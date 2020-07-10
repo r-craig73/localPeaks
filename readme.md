@@ -10,6 +10,7 @@
 
 ### User can run the script by running...
 * Input: (Powershell Terminal)
+* ```>py .\pathTo...\localPeaks.py 'C:\pathTo...\filename.asc' thresholdValue```
 
 command | os.sys.argv[0] | os.sys.argv[1] | os.sys.argv[2]
 ------- | -------------- | -------------- | --------------
